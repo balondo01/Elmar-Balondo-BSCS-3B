@@ -1,0 +1,163 @@
+      /* Custom CSS for the page */
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+      }
+/* Header Styles */
+header {
+  background-color: #f8f9fa; /* Light gray background for header */
+  padding: 1rem 0; /* Adjust padding if needed */
+}
+
+/* Header logo styles */
+header .logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Nav bar styles */
+nav .nav-link {
+  color: #333; /* Set the nav links color */
+}
+
+nav .nav-link:hover {
+  color: #007bff; /* Hover color */
+}
+
+
+      header .logo {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        max-width: 75%;
+      }
+
+      header .nav-bar {
+        display: flex;
+        gap: 30px;
+      }
+      .hero {
+        background-image: url("../images/header-background.avif");
+        background-size: cover;
+        background-position: center;
+        padding: 60px 0;
+        color: white;
+        text-align: center;
+      }
+    
+      .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+    
+      .hero p {
+        font-size: 1.2rem;
+        margin-top: 15px;
+      }
+      header .nav-item {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+
+      header .nav-item:hover {
+        color: #ffe600;
+      }
+
+      /* Main Section Style */
+      .main {
+        padding: 50px 20px;
+      }
+
+      .product-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .product-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .product-img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .product-card:hover .product-img {
+        transform: scale(1.05);
+      }
+
+      .product-details {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .product-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .product-description {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.5;
+      }
+
+      .footer {
+        background-color: #ff6f61;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+
+      .footer a {
+        color: #ffe600;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .product-card {
+          margin-bottom: 20px;
+        }
+    }
+    .card-img-top {
+      border-radius: 50%;
+      object-fit: cover; 
+      width: 100%;
+      height: auto; 
+    }
+    .card{
+      background-color: #333;
+      color: white;
+    }
+    .food-price {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #28a745;
+      text-align: center;
+    }
